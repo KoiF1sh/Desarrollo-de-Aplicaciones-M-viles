@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div style="background-color:rgb(46, 66, 173);color:white;" class="jumbotron">
+            <h1>Random User Generator Application</h1>
+        </div>
+        <div class="radio">
+            <label><input type="radio" value="male" name="gender" checked>Hombre</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" value="female" name="gender">Mujer</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" value="all" name="gender">Ambos</label>
+        </div>
+        <div class="form-group">
+
+            <label for="sel1">Selecciona la Nacionalidad:</label>
+            <select class="form-control" id="nationality">
+                <option label="Todas las Nacionalidades">ALL</option>
+                <option label="MX (México)">MX</option>
+                <option label="US (Estados Unidos de América)">US</option>
+                <option label="UA (Ucrania)">UA</option>
+                <option label="AU (Australia)">AU</option>
+                <option label="BR (Brasil)">BR</option>
+                <option label="CA (Canadá)">CA</option>
+                <option label="CH (Suiza)">CH</option>
+                <option label="DE (Alemania)">DE</option>
+                <option label="DK (Dinamarca)">DK</option>
+                <option label="ES (España)">ES</option>
+                <option label="FI (Finlandia)">FI</option>
+                <option label="FR (Francia)">FR</option>
+                <option label="GB (Reino Unido)">GB</option>
+                <option label="IR (Irán)">IR</option>
+                <option label="IE (Irlanda)">IE</option>
+                <option label="NO (Noruega)">NO</option>
+                <option label="NL (Países Bajos)">NL</option>
+                <option label="NZ (Nueva Zelanda)">NZ</option>
+                <option label="TR (Turquía)">TR</option>
+                <option label="IN (India)">IN</option>
+                <option label="RS (Serbia y Montenegro)">RS</option>
+            </select>
+        </div>
+        <div id="result"></div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
